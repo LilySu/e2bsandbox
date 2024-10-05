@@ -1,0 +1,15 @@
+# This is a config for E2B sandbox template.
+# You can use 'template_id' (ouzzi2d5069qojyw62jv) or 'template_name (manim-agent) from this config to spawn a sandbox:
+
+# Python SDK
+# from e2b import Sandbox
+# sandbox = Sandbox(template='manim-agent')
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create({ template: 'manim-agent' })
+
+team_id = "caaad05b-58e7-4bfa-a58a-e373086091df"
+dockerfile = "e2b.Dockerfile"
+template_name = "manim-agent"
+template_id = "ouzzi2d5069qojyw62jv"
